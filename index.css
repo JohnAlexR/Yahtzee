@@ -1,0 +1,21 @@
+.die-main {
+    display: flex;
+    gap: 10px;
+}
+
+.die {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: none;
+}
+
+.die:hover {
+    background-color: rgb(201, 248, 233);
+}
